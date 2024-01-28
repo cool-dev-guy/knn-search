@@ -14,7 +14,7 @@ string1 = ["miss america","Mission not impossible","Mission","Massion","Missin"]
 string2 = "Mission impossible"
 
 # RESULT ANALYSIS
-# if similarity > 5.0: => different
+# if similarity < 5.0: => different
 
 for i in range(len(string1)):
     similarity, dissimilarity = ncd(string1[i], string2)

@@ -2,8 +2,8 @@
 A simple `string-string` compare algroithm using knn-gzip for precise/fast mapping.
 
 ### RESULTS
-```shell
-Similarity between 'Mission impossible' and 'Mission impossible': 0.8889
+```diff
++ Similarity between 'Mission impossible' and 'Mission impossible': 0.8889
 Similarity between 'miss america' and 'Mission impossible': 0.5556
 Similarity between 'Mission not impossible' and 'Mission impossible': 0.7500
 Similarity between 'Mission' and 'Mission impossible': 0.6667
